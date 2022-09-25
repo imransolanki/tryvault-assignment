@@ -1,6 +1,7 @@
 package com.vault.assignment
 
 import com.google.gson.Gson
+import com.vault.assignment.model.FundRequest
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.TestConfiguration
 import org.springframework.core.io.ClassPathResource

@@ -1,5 +1,8 @@
 package com.vault.assignment
 
+import com.vault.assignment.model.FundRequest
+import com.vault.assignment.model.FundResponse
+
 class Account : Limit {
 
     private var dailyLimit = getLimit(TimePeriod.DAY)

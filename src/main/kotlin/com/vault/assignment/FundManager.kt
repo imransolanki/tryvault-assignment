@@ -1,5 +1,7 @@
 package com.vault.assignment
 
+import com.vault.assignment.model.FundRequest
+
 class FundManager(private val records: List<FundRequest>) {
     private val mapping = mutableMapOf<String, Account>()
 
