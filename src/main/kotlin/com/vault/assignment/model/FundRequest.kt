@@ -1,4 +1,4 @@
-package com.vault.assignment
+package com.vault.assignment.model
 
 data class FundRequest(
     val id: String,
